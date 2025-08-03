@@ -72,7 +72,7 @@ jobs:
         with:
           bucket: clarklindev-github-actions-hosting
           dist-folder: ./dist
-          # bucket-region: us-east-2
+          bucket-region: ap-southeast-1
       - name: Output information
         run: |
           echo "Live URL: ${{ steps.deploy.outputs.website-url }}"
